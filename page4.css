@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(84, 173, 0);
+    font-family: Werkzeug;
+}
+
+.logo {
+    width: 100px;
+}
+
+@font-face {
+    font-family: Werkzeug;
+    src: url(shreder.otf);
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    position: sticky;
+    background-color: black;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo:hover {
+    transform: translateX(5%);
+    transition: .8s;
+}
+
+* {
+    padding: 0; margin: 0;
+}
+
+.menu {
+    color: rgb(84, 173, 0);
+    font-weight: bold;
+    display: flex;
+    list-style: none; 
+
+}
+
+.menu li{
+    margin: 30px;
+    font-size: 10px;
+}
+
+.menu li a{
+    color: rgb(84, 173, 0);
+    text-decoration: none;
+}
+
+.menu li:hover{
+    transform: translateY(-15%);
+    transition: 0.5s;
+}
+
+@media (max-width:768px) {
+    .menu li{
+        margin: 10px;
+        font-size: 5px;
+    }
+
+    .logo {
+        width: 30px;
+    }
+}
+
+@media (max-width:768px) {
+    .block1-txt {
+        font-size: 10px;
+        margin: 20px;
+        padding: 20px;
+        }
+    
+        .headline {
+        font-size: 15px;
+        margin: 20px;
+        padding: 20px;
+        }
+    
+        .next {
+        font-size: 15px;
+        }
+    }
+
+    .block1-txt {
+        font-size: 30px;
+        margin: 50px;
+        padding: 50px;
+}
+
+.headline {
+    padding: 25px;
+    margin: 25px;
+    font-size: 40px;
+}
+
+.img1 {
+    width: 700px;
+    border-radius: 15px;
+}
+
+.headline1 {
+    padding: 45px;
+    margin: 45px;
+    font-size: 25px;
+}
+
+.img2 {
+    width: 50px;
+}
+
+.img2:hover {
+    transform: translateY(-30%);
+    transition: .8s;
+}
+
